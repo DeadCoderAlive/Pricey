@@ -14,6 +14,7 @@
 		F4CD33501F2023EA00EF2FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CD334E1F2023EA00EF2FBC /* LaunchScreen.storyboard */; };
 		F4CD335B1F2023EA00EF2FBC /* PriceyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD335A1F2023EA00EF2FBC /* PriceyTests.swift */; };
 		F4CD33661F2023EA00EF2FBC /* PriceyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD33651F2023EA00EF2FBC /* PriceyUITests.swift */; };
+		F4CD33741F20261E00EF2FBC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD33731F20261E00EF2FBC /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F4CD33611F2023EA00EF2FBC /* PriceyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CD33651F2023EA00EF2FBC /* PriceyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceyUITests.swift; sourceTree = "<group>"; };
 		F4CD33671F2023EA00EF2FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CD33731F20261E00EF2FBC /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F4CD33451F2023EA00EF2FBC /* AppDelegate.swift */,
 				F4CD33471F2023EA00EF2FBC /* ViewController.swift */,
+				F4CD33731F20261E00EF2FBC /* CameraViewController.swift */,
 				F4CD33491F2023EA00EF2FBC /* Main.storyboard */,
 				F4CD334C1F2023EA00EF2FBC /* Assets.xcassets */,
 				F4CD334E1F2023EA00EF2FBC /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				F4CD33481F2023EA00EF2FBC /* ViewController.swift in Sources */,
 				F4CD33461F2023EA00EF2FBC /* AppDelegate.swift in Sources */,
+				F4CD33741F20261E00EF2FBC /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

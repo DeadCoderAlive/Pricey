@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4623308BC14D121A13C2BCC4 /* Pods_PriceyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDECCF5222BAAD75F2ABC5B /* Pods_PriceyUITests.framework */; };
+		C27B2FFB9AAED0234C2D9550 /* Pods_PriceyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387B2DF7B5796A6D6F051262 /* Pods_PriceyTests.framework */; };
+		D7B18D64B8E3F93987940CC0 /* Pods_Pricey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0E4911884D7BB663B87C3F /* Pods_Pricey.framework */; };
 		F447209C1F21AA7800A4CF9B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F447209B1F21AA7800A4CF9B /* Constants.swift */; };
 		F4CD33461F2023EA00EF2FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD33451F2023EA00EF2FBC /* AppDelegate.swift */; };
 		F4CD33481F2023EA00EF2FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD33471F2023EA00EF2FBC /* ViewController.swift */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0E4911884D7BB663B87C3F /* Pods_Pricey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pricey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8E5C3A60BD2B8D0CE02D41 /* Pods-PriceyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriceyTests/Pods-PriceyTests.release.xcconfig"; sourceTree = "<group>"; };
+		387B2DF7B5796A6D6F051262 /* Pods_PriceyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB46A84D7D40D7DFC11FE96 /* Pods-Pricey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pricey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pricey/Pods-Pricey.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1950A6E475A97CE9F2782E /* Pods-PriceyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriceyTests/Pods-PriceyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ED3FBBF486E22A33B93FA93 /* Pods-PriceyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriceyUITests/Pods-PriceyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A819BF82131A20CC375F3B0C /* Pods-PriceyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriceyUITests/Pods-PriceyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2FB027088BEEEC8B2C75C3 /* Pods-Pricey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pricey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pricey/Pods-Pricey.release.xcconfig"; sourceTree = "<group>"; };
+		DEDECCF5222BAAD75F2ABC5B /* Pods_PriceyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F447209B1F21AA7800A4CF9B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F4CD33421F2023EA00EF2FBC /* Pricey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pricey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CD33451F2023EA00EF2FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B18D64B8E3F93987940CC0 /* Pods_Pricey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27B2FFB9AAED0234C2D9550 /* Pods_PriceyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4623308BC14D121A13C2BCC4 /* Pods_PriceyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20334DF86826428D231224DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB46A84D7D40D7DFC11FE96 /* Pods-Pricey.debug.xcconfig */,
+				BF2FB027088BEEEC8B2C75C3 /* Pods-Pricey.release.xcconfig */,
+				5A1950A6E475A97CE9F2782E /* Pods-PriceyTests.debug.xcconfig */,
+				2F8E5C3A60BD2B8D0CE02D41 /* Pods-PriceyTests.release.xcconfig */,
+				A819BF82131A20CC375F3B0C /* Pods-PriceyUITests.debug.xcconfig */,
+				6ED3FBBF486E22A33B93FA93 /* Pods-PriceyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5A41D930BEB372C69F508E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0E4911884D7BB663B87C3F /* Pods_Pricey.framework */,
+				387B2DF7B5796A6D6F051262 /* Pods_PriceyTests.framework */,
+				DEDECCF5222BAAD75F2ABC5B /* Pods_PriceyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4CD33391F2023EA00EF2FBC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				F4CD33591F2023EA00EF2FBC /* PriceyTests */,
 				F4CD33641F2023EA00EF2FBC /* PriceyUITests */,
 				F4CD33431F2023EA00EF2FBC /* Products */,
+				20334DF86826428D231224DE /* Pods */,
+				D5A41D930BEB372C69F508E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4CD336A1F2023EA00EF2FBC /* Build configuration list for PBXNativeTarget "Pricey" */;
 			buildPhases = (
+				E8D750F4F8A76D84674E17A7 /* [CP] Check Pods Manifest.lock */,
 				F4CD333E1F2023EA00EF2FBC /* Sources */,
 				F4CD333F1F2023EA00EF2FBC /* Frameworks */,
 				F4CD33401F2023EA00EF2FBC /* Resources */,
+				F5C82DBD190EA38B657F63F0 /* [CP] Embed Pods Frameworks */,
+				A07D0CF8BF8BF11CF244371F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4CD336D1F2023EA00EF2FBC /* Build configuration list for PBXNativeTarget "PriceyTests" */;
 			buildPhases = (
+				557B5F3DE6677812CA727805 /* [CP] Check Pods Manifest.lock */,
 				F4CD33521F2023EA00EF2FBC /* Sources */,
 				F4CD33531F2023EA00EF2FBC /* Frameworks */,
 				F4CD33541F2023EA00EF2FBC /* Resources */,
+				B3C4CED40FB7E3665805513B /* [CP] Embed Pods Frameworks */,
+				CF556A044A557DE02AC15AF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4CD33701F2023EA00EF2FBC /* Build configuration list for PBXNativeTarget "PriceyUITests" */;
 			buildPhases = (
+				B04067E557F6EE58D3278AF2 /* [CP] Check Pods Manifest.lock */,
 				F4CD335D1F2023EA00EF2FBC /* Sources */,
 				F4CD335E1F2023EA00EF2FBC /* Frameworks */,
 				F4CD335F1F2023EA00EF2FBC /* Resources */,
+				C84BE431599FFC570D8CB269 /* [CP] Embed Pods Frameworks */,
+				3AD001F26278749A1DA4A795 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +311,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AD001F26278749A1DA4A795 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PriceyUITests/Pods-PriceyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557B5F3DE6677812CA727805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A07D0CF8BF8BF11CF244371F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pricey/Pods-Pricey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04067E557F6EE58D3278AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C4CED40FB7E3665805513B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PriceyTests/Pods-PriceyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84BE431599FFC570D8CB269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PriceyUITests/Pods-PriceyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF556A044A557DE02AC15AF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PriceyTests/Pods-PriceyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D750F4F8A76D84674E17A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C82DBD190EA38B657F63F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pricey/Pods-Pricey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4CD333E1F2023EA00EF2FBC /* Sources */ = {
@@ -423,6 +610,7 @@
 		};
 		F4CD336B1F2023EA00EF2FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB46A84D7D40D7DFC11FE96 /* Pods-Pricey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BG88AY3FKF;
@@ -436,6 +624,7 @@
 		};
 		F4CD336C1F2023EA00EF2FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2FB027088BEEEC8B2C75C3 /* Pods-Pricey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BG88AY3FKF;
@@ -449,6 +638,7 @@
 		};
 		F4CD336E1F2023EA00EF2FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1950A6E475A97CE9F2782E /* Pods-PriceyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +654,7 @@
 		};
 		F4CD336F1F2023EA00EF2FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8E5C3A60BD2B8D0CE02D41 /* Pods-PriceyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +670,7 @@
 		};
 		F4CD33711F2023EA00EF2FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A819BF82131A20CC375F3B0C /* Pods-PriceyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BG88AY3FKF;
@@ -493,6 +685,7 @@
 		};
 		F4CD33721F2023EA00EF2FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED3FBBF486E22A33B93FA93 /* Pods-PriceyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BG88AY3FKF;

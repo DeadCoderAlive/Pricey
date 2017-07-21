@@ -13,6 +13,7 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
     
     var session:AVCaptureSession!
     var previewLayer:AVCaptureVideoPreviewLayer!
+    var codeFrameView:UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,13 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
         previewLayer.frame = view.bounds
         self.view.layer.addSublayer(previewLayer)
         session.startRunning()
+        codeFrameView = UIView()
+        if let codeFrameView = codeFrameView {
+            codeFrameView.layer.borderColor = UIColor.blue.cgColor
+            codeFrameView.layer.borderWidth = 3
+            self.view.addSubview(codeFrameView)
+            self.view.bringSubview(toFront: codeFrameView)
+        }
         // Do any additional setup after loading the view.
     }
 
@@ -43,7 +51,7 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
             videoInput = try AVCaptureDeviceInput(device: captureDevice)
             }
         catch {
-            
+            deviceUnableToScan()
         }
         session = AVCaptureSession()
         if(session.canAddInput(videoInput)) {
@@ -73,6 +81,8 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
     func captureOutput(_ captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [Any]!, from connection: AVCaptureConnection!) {
         if let codeData = metadataObjects.first {
             let codeReadable = codeData as! AVMetadataMachineReadableCodeObject
+            let codeObject = previewLayer.transformedMetadataObject(for: codeReadable)
+            codeFrameView?.frame = codeObject!.bounds
             print(codeReadable.stringValue)
         }
     }

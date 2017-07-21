@@ -51,7 +51,11 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
         }
     }
     
-    func deviceUnableToScan() {}
+    func deviceUnableToScan() {
+       let alert = UIAlertController(title:Constants.UNABLETOSCAN_ALERT_TITLE , message:Constants.UNABLETOSCAN_ALERT_MESSAGE, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: Constants.OK_BUTTON_TITLE, style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
 
     override func viewWillAppear(_ animated: Bool) {
         if(!session.isRunning) {
@@ -65,6 +69,7 @@ class CameraViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
         }
     }
     
+    //MARK : AVCaptureMetaDataObjectsDelegate methods
     func captureOutput(_ captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [Any]!, from connection: AVCaptureConnection!) {
         if let codeData = metadataObjects.first {
             let codeReadable = codeData as! AVMetadataMachineReadableCodeObject

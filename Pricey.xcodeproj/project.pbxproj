@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F447209C1F21AA7800A4CF9B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F447209B1F21AA7800A4CF9B /* Constants.swift */; };
 		F4CD33461F2023EA00EF2FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD33451F2023EA00EF2FBC /* AppDelegate.swift */; };
 		F4CD33481F2023EA00EF2FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD33471F2023EA00EF2FBC /* ViewController.swift */; };
 		F4CD334B1F2023EA00EF2FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CD33491F2023EA00EF2FBC /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F447209B1F21AA7800A4CF9B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F4CD33421F2023EA00EF2FBC /* Pricey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pricey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CD33451F2023EA00EF2FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4CD33471F2023EA00EF2FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F4CD334C1F2023EA00EF2FBC /* Assets.xcassets */,
 				F4CD334E1F2023EA00EF2FBC /* LaunchScreen.storyboard */,
 				F4CD33511F2023EA00EF2FBC /* Info.plist */,
+				F447209B1F21AA7800A4CF9B /* Constants.swift */,
 			);
 			path = Pricey;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				F4CD33481F2023EA00EF2FBC /* ViewController.swift in Sources */,
 				F4CD33461F2023EA00EF2FBC /* AppDelegate.swift in Sources */,
 				F4CD33741F20261E00EF2FBC /* CameraViewController.swift in Sources */,
+				F447209C1F21AA7800A4CF9B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				F4CD336C1F2023EA00EF2FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CD336D1F2023EA00EF2FBC /* Build configuration list for PBXNativeTarget "PriceyTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				F4CD336F1F2023EA00EF2FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CD33701F2023EA00EF2FBC /* Build configuration list for PBXNativeTarget "PriceyUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				F4CD33721F2023EA00EF2FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
